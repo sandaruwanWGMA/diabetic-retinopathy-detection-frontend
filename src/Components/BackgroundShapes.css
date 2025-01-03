@@ -1,0 +1,71 @@
+/* Background Shapes */
+.background-shapes {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Place behind the content */
+  overflow: hidden;
+}
+
+.shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.8;
+  animation: float 10s infinite ease-in-out;
+}
+
+/* Circle Colors and Positions */
+.shape.circle-1 {
+  width: 150px;
+  height: 150px;
+  top: 20%;
+  left: 10%;
+  background: rgba(0, 114, 255, 0.2); /* Light Blue */
+}
+
+.shape.circle-2 {
+  width: 200px;
+  height: 200px;
+  top: 40%;
+  left: 70%;
+  background: rgba(255, 99, 132, 0.2); /* Light Pink */
+}
+
+.shape.circle-3 {
+  width: 100px;
+  height: 100px;
+  top: 60%;
+  left: 30%;
+  background: rgba(75, 192, 192, 0.2); /* Light Teal */
+}
+
+.shape.circle-4 {
+  width: 250px;
+  height: 250px;
+  top: 80%;
+  left: 50%;
+  background: rgba(255, 206, 86, 0.2); /* Light Yellow */
+}
+
+.shape.circle-5 {
+  width: 120px;
+  height: 120px;
+  top: 10%;
+  left: 80%;
+  background: rgba(153, 102, 255, 0.2); /* Light Purple */
+}
+
+/* Animation for Floating Effect */
+@keyframes float {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}

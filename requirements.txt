@@ -1,0 +1,7 @@
+Flask
+flask-cors
+numpy
+Pillow
+scikit-learn
+# chart.js 
+# react-chartjs-2

@@ -1,0 +1,68 @@
+/* PredictionResult.css */
+
+.prediction-result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.prediction-card {
+  max-width: 500px;
+  width: 100%;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prediction-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+}
+
+.prediction-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+.prediction-text {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: #555555;
+}
+
+.prediction-highlight {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0056b3;
+  background: #e9f5ff;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.action-buttons {
+  margin-top: 20px;
+}
+
+.new-analysis-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background: #007bff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.new-analysis-button:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
